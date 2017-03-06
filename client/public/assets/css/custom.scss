@@ -1,0 +1,44 @@
+#handWrapper {
+	position: relative;
+	#handImg {
+		width: 300px;
+	}
+	.fingernail{
+		position: absolute;
+		margin: 15px;
+		img {
+			max-width: 25px;
+			transform: rotate(180deg);
+		}
+	}
+
+	.thumb {
+		top: 245px;
+		left: 0px;
+		-ms-transform: rotate(-40deg); /* IE 9 */
+    -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+    transform: rotate(-40deg);
+    img {max-width: 30px;}
+	}
+
+	.pointer {
+		top: 48px;
+		left: 82px;
+	}
+
+	.middle {
+		top: 8px;
+		left: 137px;
+	}
+
+	.ring {
+		top: 25px;
+		left: 190px;
+	}
+
+	.pinky {
+		top: 70px;
+		left: 245px;
+	}
+
+}

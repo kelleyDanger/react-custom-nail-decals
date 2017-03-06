@@ -1,0 +1,10 @@
+#hand {
+	.fingernail{
+		position: relative;
+	}
+
+	#thumb {
+		top: 300px;
+		left: 20px;
+	}
+}
