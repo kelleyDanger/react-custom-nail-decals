@@ -11,7 +11,7 @@ module.exports = {
   entry: './client/index.js',
   output: {
     path: __dirname +'/build',
-    publicPath: "assets/",
+    publicPath: "/",
     filename: 'bundle.js'
   },
   module: {
@@ -21,7 +21,7 @@ module.exports = {
       { 
         test: /\.(jpe?g|png|gif|svg)$/i, 
         loaders: [
-          'file-loader?hash=sha512&digest=hex&name=[name].[ext]',
+          'file-loader',
           'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ] 
       },
@@ -36,6 +36,11 @@ module.exports = {
         }]
       },
     ]
+  },
+  resolve: {
+    alias: {
+      'images': path.resolve(__dirname, 'client/public/assets/images')
+    }
   },
   plugins: [HtmlWebpackPluginConfig]
 }

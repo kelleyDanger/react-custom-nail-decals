@@ -4,13 +4,14 @@ import classNames from 'classnames';
 
 import '../public/assets/css/custom.scss';
 
-import HandImg from './assets/hand.png';
+import HandImg from 'images/hand.png';
+import DecalImgs from 'images/decals/decals.js'
 
 class App extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			decalPack: ''
+			decalPack: 'Animals'
 		};
 
 		this.handleChange = this.handleChange.bind(this);
@@ -19,17 +20,13 @@ class App extends React.Component {
 	handleChange(event) {
 		const decalSet = event.target.value;
     this.setState({decalPack: decalSet});
-    console.log('decal pack changed');
-    //console.log('decal pack:' + decalSet);
-    ReactDOM.render(
-		  <Decals decalPack={decalSet} renderDecals={this.renderDecals} />,
-		  document.getElementById('decals')
-		);
   }
 
   renderDecals(decalPack) {
   	console.log(decalPack);
-  	console.log("LOADING IMAGES");
+  	console.log(DecalImgs.Animals.keys());
+  	//console.log(DecalImgs[decalPack]);
+
   	
   	// pathEmoticons = require.context(`../public/assets/images/decals/Emoticons`, true, /^\.\/.*\.png$/);
   	//var pathDecals = require.context(`./client/public/assets/images/decals/${decalPack}`, true, /^\.\/.*\.png$/);
@@ -49,14 +46,12 @@ class App extends React.Component {
   }
 
   render() {
-  	var decalPack = "Halloween"
-  	var pathDecals = require.context(`./client/public/assets/images/decals/${decalPack}`, true, /^\.\/.*\.png$/);
     return (
      <div>
         <Introduction />
         <Hand />
-        <DecalList onChange={this.handleChange} renderDecals={this.renderDecals}/>
-        <div id="decals"></div>
+        <DecalSelectList onChange={this.handleChange} />
+        <DecalList decalPack={this.state.decalPack} />
       </div>);
   }
 }
@@ -99,13 +94,13 @@ class Fingernail extends React.Component {
 	}
 }
 
-class DecalList extends React.Component {
+class DecalSelectList extends React.Component {
 	render() {
 		return (
 			<select onChange={this.props.onChange}>
 			  <option value="Animals" defaultValue>Animals</option>
 			  <option value="Emoticons">Emoticons</option>
-			  <option value="Halloween">Halloween</option>
+			  <option value="Minimen">Minimen</option>
 			  <option value="SacredGeometry">Sacred Geometry</option>
 			</select>
 		);
@@ -114,17 +109,17 @@ class DecalList extends React.Component {
 }
 
 
-class Decals extends React.Component {
+class DecalList extends React.Component {
 	render() {
-		console.log('inside decals');
 		var decalPack = this.props.decalPack;
-		console.log(decalPack);
-		const decals = this.props.renderDecals(decalPack);
+		const decals = DecalImgs[decalPack].keys();
+
+		const decalList = decals.map((decal, index) =>
+			<img src={`./client/public/assets/images/decals/${decalPack}/${decal}`} key={index} />
+		);
 
 		return (
-			<div id="decals">
-				{decals}
-			</div>
+			<div id="decals">{decalList}</div>
 		)
 	}
 }
