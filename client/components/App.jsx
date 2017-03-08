@@ -18,31 +18,8 @@ class App extends React.Component {
 	}
 
 	handleChange(event) {
-		const decalSet = event.target.value;
-    this.setState({decalPack: decalSet});
-  }
-
-  renderDecals(decalPack) {
-  	console.log(decalPack);
-  	console.log(DecalImgs.Animals.keys());
-  	//console.log(DecalImgs[decalPack]);
-
-  	
-  	// pathEmoticons = require.context(`../public/assets/images/decals/Emoticons`, true, /^\.\/.*\.png$/);
-  	//var pathDecals = require.context(`./client/public/assets/images/decals/${decalPack}`, true, /^\.\/.*\.png$/);
-  	//var requireDecals = require.context("../public/assets/images/decals", true, /^\.\/.*\.png$/);
-  	//var Emoticons = requireDecals("./Emoticons/");
-  	//console.log(Emoticons);
-  	//var ds = pathEmoticons.keys().map(pathEmoticons);
-  	//var decals = requireDecals.keys().map(requireDecals);
-  	//console.log(requireDecals);
-  	//if (decalPack.size < 1) {
-  	//	return false;
-  	//}
-
-  	//return decals.map((decal, index) => (
-  	//	<img src={decal} id={index} />
-  	//));
+		const decalPack = event.target.value;
+    this.setState({decalPack: decalPack});
   }
 
   render() {
@@ -87,9 +64,10 @@ class Fingernail extends React.Component {
 		let classes = classNames(
 			'fingernail', this.props.finger
 		);
-
 		return (
-			<div className={classes}><img src="https://image.flaticon.com/icons/png/128/284/284749.png" /></div>
+			<div className={classes}>
+				<img src="https://image.flaticon.com/icons/png/128/284/284749.png" />
+			</div>
 		)
 	}
 }
@@ -108,16 +86,14 @@ class DecalSelectList extends React.Component {
 
 }
 
-
 class DecalList extends React.Component {
 	render() {
-		var decalPack = this.props.decalPack;
-		const decals = DecalImgs[decalPack].keys();
+		const decalPack = this.props.decalPack,
+					decals = DecalImgs[decalPack].keys();
 
 		const decalList = decals.map((decal, index) =>
-			<img src={`./client/public/assets/images/decals/${decalPack}/${decal}`} key={index} />
+			<Decal pack={decalPack} decal={decal} key={index} />
 		);
-
 		return (
 			<div id="decals">{decalList}</div>
 		)
@@ -125,7 +101,12 @@ class DecalList extends React.Component {
 }
 
 class Decal extends React.Component {
-
+	render() {
+		const pack = this.props.pack,
+					decal = this.props.decal;
+		return (
+			<img src={`./client/public/assets/images/decals/${pack}/${decal}`} />
+		)
+	}
 }
-
 export default App

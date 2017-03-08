@@ -5,7 +5,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
   filename: 'index.html',
   inject: 'body'
-})
+});
 
 module.exports = {
   entry: './client/index.js',
@@ -20,9 +20,8 @@ module.exports = {
       { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
       { 
         test: /\.(jpe?g|png|gif|svg)$/i, 
-        loaders: [
-          'file-loader',
-          'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
+        loader: [
+          'file-loader'
         ] 
       },
       {
