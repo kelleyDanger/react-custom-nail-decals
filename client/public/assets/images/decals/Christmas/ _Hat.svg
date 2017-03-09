@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<circle fill="#F9DC9B" cx="51.9" cy="11" r="8.2"/>
+	<path fill="#F7CE6B" d="M46,5.2c3.2-3.2,8.4-3.2,11.7,0c3.2,3.2,3.2,8.4,0,11.7"/>
+	<path fill="#F4B840" d="M57.7,5.2c3.2,3.2,3.2,8.4,0,11.7"/>
+	<g>
+		<path fill="#DD3636" d="M8.6,47.9c0,0-3.4-24,18.7-26.2C49.5,19.4,52.1,19,53.7,14c0,0,4.3-1,4.9,1.9c0.6,2.9,2.7,8.3-1.6,12.1
+			s-3.4,19.6-3.4,19.6L8.6,47.9z"/>
+		<path fill="#C92D2D" d="M27.3,21.6C49.5,19.4,52.1,19,53.7,14c0,0,4.3-1,4.9,1.9c0.6,2.9,2.7,8.3-1.6,12.1s-3.4,19.6-3.4,19.6
+			l-45,0.3"/>
+		<path fill="#AF1E1E" d="M58.6,15.9c0.6,2.9,2.7,8.3-1.6,12.1s-3.4,19.6-3.4,19.6l-45,0.3"/>
+		<path fill="#9E0A0A" d="M57,28c-4.3,3.8-3.4,19.6-3.4,19.6l-45,0.3"/>
+	</g>
+	<path fill="#F9DC9B" d="M63.1,53c0,4.4-0.4,8-4.8,8H5.7c-4.4,0-4.8-3.6-4.8-8l0,0c0-4.4,3.6-8,7.9-8h46.3
+		C59.5,45,63.1,48.6,63.1,53L63.1,53z"/>
+	<path fill="#F7CE6B" d="M9,45h46.1c4.4,0,7.9,3.6,7.9,8l0,0c0,4.4-0.4,8-4.8,8H29"/>
+	<path fill="#F4B840" d="M9,45h46.1c4.4,0,7.9,3.7,7.9,8.1l0,0c0,4.4-0.3,7.9-4.7,7.9"/>
+	<ellipse fill="#F7F5E4" cx="7.1" cy="53.4" rx="3.8" ry="3.9"/>
+	<circle fill="#F7F5E4" cx="8.4" cy="48" r="0.6"/>
+	<circle fill="#F7F5E4" cx="11.9" cy="49.7" r="1.1"/>
+	<circle fill="#DD3636" cx="10.5" cy="14.4" r="2.3"/>
+	<circle fill="#DD3636" cx="19.7" cy="15.1" r="1.1"/>
+	<circle fill="#DD3636" cx="15.5" cy="20.7" r="0.8"/>
+	<circle fill="#DD3636" cx="15.2" cy="17.1" r="0.2"/>
+	<circle fill="#2CBF7F" cx="6.8" cy="29.9" r="1.7"/>
+	<circle fill="#2CBF7F" cx="32.5" cy="8.4" r="2.8"/>
+	<circle fill="#2CBF7F" cx="27.8" cy="15" r="1.2"/>
+	<ellipse transform="matrix(0.9648 -0.2631 0.2631 0.9648 -1.7824 12.7719)" fill="#F7F5E4" cx="46.8" cy="13" rx="1.8" ry="3.2"/>
+</g>
+</svg>

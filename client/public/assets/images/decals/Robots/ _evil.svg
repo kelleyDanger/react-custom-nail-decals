@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<rect x="15" y="37" fill="#FFB600" width="30" height="9"/>
+	<g>
+		<g>
+			<polygon fill="#BE90D6" points="26.2,40 18.6,47.6 11,36.6 18.6,32.4 			"/>
+			<polygon fill="#8860A8" points="26.2,40 18.6,47.6 11,36.6 18.6,41 			"/>
+		</g>
+		<g>
+			<polygon fill="#BE90D6" points="37.8,40 45.4,47.6 53,36.6 45.4,32.4 			"/>
+			<polygon fill="#8860A8" points="37.8,40 45.4,47.6 53,36.6 45.4,41 			"/>
+		</g>
+	</g>
+	<g>
+		<path fill="#A87CC4" d="M1,62h62V39.3c-7-5.7-18.2,4.9-31,4.9S8,33.6,1,39.3V62z"/>
+		<path fill="#8860A8" d="M32,44C19.2,44,8,33.6,1,39.3V62h31"/>
+		<g>
+			<polygon fill="#BDD5DB" points="12.9,7.1 32,1.5 51.1,7.1 47,34.1 32,48.6 17,34.1 			"/>
+			<polygon fill="#D1ACEA" points="12.9,7.1 32,1.5 51.1,7.1 47,34.1 32,48.6 17,34.1 			"/>
+			<polygon fill="#87B6C1" points="12.9,7.1 32,1.5 51.1,7.1 47,34.1 32,48.6 26.1,22.4 			"/>
+			<polyline fill="#8860A8" points="32,1.5 51.1,7.1 47,34.1 32,48.6 			"/>
+			<polyline fill="#BE90D6" points="32,48.6 26.1,22.4 12.9,7.1 32,1.5 			"/>
+			<polyline fill="#A87CC4" points="32,48.6 38,22.4 51.1,7.1 32,1.5 			"/>
+			<g>
+				<path fill="#A87CC4" d="M26.1,22.7c-0.4,0.6-2.4,1.7-5.5,0.6c-2.4-0.8-2.1-3.5-2.3-5.2c-0.1-0.7-0.8-3.9,1.3-2.7
+					C21.7,16.8,26.4,22.1,26.1,22.7z"/>
+				<path fill="#FFCE00" d="M26.1,22.7c-0.4,0.6-2.3-0.1-5.4-1.1c-2.4-0.8-2.2-1.7-2.4-3.4c-0.1-0.7,0.1-2.7,2.3-1.5
+					C22.7,18,26.4,22.1,26.1,22.7z"/>
+				<path fill="#FFB600" d="M26.1,22.7c-0.4,0.6-2.3-0.1-5.4-1.1c-2.4-0.8-2.2-1.7-2.4-3.4"/>
+				<ellipse fill="#FFCE00" cx="22" cy="19.9" rx="0.7" ry="1.7"/>
+				<path fill="#FFB600" d="M22,18.2c0.4,0,0.7,0.8,0.7,1.7c0,0.9-0.3,1.7-0.7,1.7"/>
+				<circle fill="#FFF8DC" cx="22" cy="19.2" r="0.4"/>
+				<circle fill="#FFF8DC" cx="22" cy="21.1" r="0.2"/>
+			</g>
+			<g>
+				<path fill="#BE90D6" d="M37.9,22.7c0.4,0.6,2.4,1.7,5.5,0.6c2.4-0.8,2.1-3.5,2.3-5.2c0.1-0.7,0.8-3.9-1.3-2.7
+					C42.3,16.8,37.6,22.1,37.9,22.7z"/>
+				<path fill="#FFCE00" d="M37.9,22.7c0.4,0.6,2.3-0.1,5.4-1.1c2.4-0.8,2.2-1.7,2.4-3.4c0.1-0.7-0.1-2.7-2.3-1.5
+					C41.3,18,37.6,22.1,37.9,22.7z"/>
+				<path fill="#FFB600" d="M37.9,22.7c0.4,0.6,2.3-0.1,5.4-1.1c2.4-0.8,2.2-1.7,2.4-3.4"/>
+				<ellipse fill="#FFCE00" cx="42" cy="19.9" rx="0.7" ry="1.7"/>
+				<path fill="#FFB600" d="M42,18.2c-0.4,0-0.7,0.8-0.7,1.7c0,0.9,0.3,1.7,0.7,1.7"/>
+				<circle fill="#FFF8DC" cx="42" cy="19.2" r="0.4"/>
+				<circle fill="#FFF8DC" cx="42" cy="21.1" r="0.2"/>
+			</g>
+			<g>
+				<g>
+					<polygon fill="#BE90D6" points="17.3,23.7 22,28.3 22,26.7 					"/>
+					<polygon fill="#BE90D6" points="17.3,25.8 22,30.5 22,28.8 					"/>
+					<polygon fill="#BE90D6" points="17.3,27.9 22,32.6 22,31 					"/>
+				</g>
+				<g>
+					<polygon fill="#A87CC4" points="46.7,23.7 42,28.3 42,26.7 					"/>
+					<polygon fill="#A87CC4" points="46.7,25.8 42,30.5 42,28.8 					"/>
+					<polygon fill="#A87CC4" points="46.7,27.9 42,32.6 42,31 					"/>
+				</g>
+			</g>
+			<polygon fill="#FFCE00" points="34.2,28.2 32,32.3 29.8,28.2 32,26 			"/>
+			<polyline fill="#FFB600" points="32,26 34.2,28.2 32,32.3 			"/>
+			<polyline fill="#FF9100" points="29.8,28.2 32,26 34.2,28.2 			"/>
+			<g>
+				
+					<rect x="31.4" y="16.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.7539 27.6504)" fill="#FFCE00" width="1.2" height="1.2"/>
+				
+					<rect x="31.4" y="11.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.7513 26.1985)" fill="#FFCE00" width="1.2" height="1.2"/>
+				
+					<rect x="31.4" y="6.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 4.2564 24.7466)" fill="#FFCE00" width="1.2" height="1.2"/>
+			</g>
+			<polygon fill="#D1ACEA" points="18.4,10.6 15.9,7.8 29,3.9 			"/>
+		</g>
+		<g>
+			<g>
+				<polygon fill="#A87CC4" points="2.5,41 6.7,41 18.4,52.7 				"/>
+				<g>
+					<circle fill="#A87CC4" cx="13.5" cy="42.1" r="0.9"/>
+					<circle fill="#A87CC4" cx="17" cy="45.6" r="0.9"/>
+					<circle fill="#A87CC4" cx="20.5" cy="49.1" r="0.9"/>
+					<circle fill="#A87CC4" cx="24" cy="52.6" r="0.9"/>
+				</g>
+			</g>
+			<g>
+				<polygon fill="#8860A8" points="61.5,41 57.3,41 45.6,52.7 				"/>
+				<g>
+					<circle fill="#8860A8" cx="50.5" cy="42.1" r="0.9"/>
+					<circle fill="#8860A8" cx="47" cy="45.6" r="0.9"/>
+					<circle fill="#8860A8" cx="43.5" cy="49.1" r="0.9"/>
+					<circle fill="#8860A8" cx="40" cy="52.6" r="0.9"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<circle fill="#FFCE00" cx="32" cy="55" r="3.9"/>
+			<path fill="#FFB600" d="M32,51.1c2.1,0,3.9,1.7,3.9,3.9s-1.7,3.9-3.9,3.9"/>
+		</g>
+		<g>
+			<circle fill="#FFCE00" cx="32" cy="55" r="2.7"/>
+			<path fill="#FFB600" d="M29.3,55c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7"/>
+		</g>
+	</g>
+</g>
+</svg>

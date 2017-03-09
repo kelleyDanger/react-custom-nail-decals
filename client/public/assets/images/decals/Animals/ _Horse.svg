@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<circle fill="#FCCC32" cx="32" cy="32" r="30.5"/>
+		<path fill="#EFAE0C" d="M53.6,10.4c11.9,11.9,11.9,31.2,0,43.1s-31.2,11.9-43.1,0"/>
+	</g>
+	<g>
+		<polygon fill="#896530" points="53.6,50.7 32,60.4 10.4,50.7 13.3,16 51.6,16 		"/>
+		<g>
+			<g>
+				<g>
+					<polygon fill="#C4A45B" points="10.3,15.2 32,8.1 53.7,15.2 47.8,43.7 32,56.1 16.2,43.7 					"/>
+					<polyline fill="#A88547" points="32,8.1 53.7,15.2 47.8,43.7 32,56.1 					"/>
+					<g>
+						<polygon fill="#C4A45B" points="18.2,36.7 32,34.3 45.8,36.7 43.3,61.2 32,63.5 20.7,61.2 						"/>
+						<polyline fill="#A88547" points="32,34.3 45.8,36.7 43.3,61.2 32,63.5 20.7,61.2 						"/>
+						<polygon fill="#EDEBD3" points="19.9,52.7 20.7,61.2 32,63.5 43.3,61.2 44.1,52.7 32,50.5 						"/>
+					</g>
+				</g>
+			</g>
+			<polygon fill="#9B7942" points="41.1,11.1 32,20.2 32,29.5 46.9,44.4 47.8,43.7 53.7,15.2 			"/>
+			<g>
+				<polygon fill="#C4A45B" points="14.6,0.5 24.6,12.1 19,20.8 10.3,15.2 				"/>
+				<polyline fill="#A88547" points="19,20.8 10.3,15.2 14.6,0.5 				"/>
+			</g>
+			<g>
+				<polygon fill="#C4A45B" points="49.4,0.5 39.4,12.1 45,20.8 53.7,15.2 				"/>
+				<polyline fill="#A88547" points="45,20.8 53.7,15.2 49.4,0.5 				"/>
+			</g>
+			<g>
+				<g>
+					<polygon fill="#5E6664" points="25,32.4 20,30.6 20,27.3 25,29.1 					"/>
+					<polyline fill="#2F423F" points="25,29.1 25,32.4 20,30.6 					"/>
+				</g>
+				<g>
+					<g>
+						<polygon fill="#5E6664" points="39,32.4 44,30.6 44,27.3 39,29.1 						"/>
+					</g>
+					<g>
+						<polyline fill="#2F423F" points="39,32.4 44,30.6 44,27.3 						"/>
+					</g>
+				</g>
+			</g>
+			<g>
+				<polyline fill="#5E6664" points="32,29.5 42.2,9.1 33.6,1 32,0.9 				"/>
+				<polyline fill="#5E6664" points="32,0.8 30.4,1 21.8,9.1 32,29.5 32,29.5 32,29.5 				"/>
+				<path fill="#5E6664" d="M32,1"/>
+				<path fill="#2F423F" d="M32,1"/>
+				<path fill="#2F423F" d="M32,0.8"/>
+				<polyline fill="#2F423F" points="32,29.5 32,29.5 32.1,29.4 42.2,9.1 33.6,1 32,0.8 				"/>
+				<path fill="#2F423F" d="M32.1,29.4"/>
+			</g>
+			<g>
+				<polygon fill="#C4A45B" points="30,60 25,58 25,54.3 30,56.4 				"/>
+				<polygon fill="#A88547" points="34,60 39,58 39,54.3 34,56.4 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

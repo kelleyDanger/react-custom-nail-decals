@@ -119,9 +119,23 @@ class DecalSelectList extends React.Component {
 		return (
 			<select onChange={this.props.onChange}>
 			  <option value="Animals" defaultValue>Animals</option>
+			  <option value="Baby">Baby</option>
+			  <option value="Chemistry">Chemistry</option>
+			  <option value="Christmas">Christmas</option>
+			  <option value="Easter">Easter</option>
 			  <option value="Emoticons">Emoticons</option>
+			  <option value="Games">Games</option>
+			  <option value="Gastronomy">Gastronomy</option>
+			  <option value="Halloween">Halloween</option>
+			  <option value="Landmarks">Landmarks</option>
 			  <option value="Minimen">Minimen</option>
+			  <option value="Outdoor">Outdoor</option>
+			  <option value="PokemonGo">Pokemon Go</option>
+			  <option value="Robots">Robots</option>
 			  <option value="SacredGeometry">Sacred Geometry</option>
+			  <option value="Symbol">Symbol</option>
+			  <option value="Weather">Weather</option>
+			  <option value="Wedding">Wedding</option>
 			</select>
 		);
 	}
