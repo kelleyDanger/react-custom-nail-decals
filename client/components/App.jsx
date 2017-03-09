@@ -7,14 +7,39 @@ import '../public/assets/css/custom.scss';
 import HandImg from 'images/hand.png';
 import DecalImgs from 'images/decals/decals.js'
 
+import merge from 'lodash/merge';
+
 class App extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			decalPack: 'Animals'
+			decalPack: 'Animals',
+			fingernailDecals: {
+				thumb: 'https://img.clipartfest.com/0d6a3240800caf71073288e1df38bf8a_cute-panda-png-c-cute-pnda-clipart-png_128-128.png',
+				pointer: '',
+				middle: "",
+				ring: "",
+				pinky: "",
+			},
+			currentFinger: 'thumb'
 		};
 
 		this.handleChange = this.handleChange.bind(this);
+		this.setCurrentFinger = this.setCurrentFinger.bind(this);
+		this.setCurrentFingernailDecal = this.setCurrentFingernailDecal.bind(this);
+
+	}
+
+	setCurrentFinger(finger) {
+		this.setState({currentFinger: finger})
+	}
+
+	setCurrentFingernailDecal(decal) {
+		this.setState({
+		  fingernailDecals: merge({}, this.state.fingernailDecals, {
+		  	[this.state.currentFinger]: decal
+		  })
+		})
 	}
 
 	handleChange(event) {
@@ -26,9 +51,9 @@ class App extends React.Component {
     return (
      <div>
         <Introduction />
-        <Hand />
+        <Hand setCurrentFinger={this.setCurrentFinger} fingernailDecals = {this.state.fingernailDecals}/>
         <DecalSelectList onChange={this.handleChange} />
-        <DecalList decalPack={this.state.decalPack} />
+        <DecalList setCurrentFingernailDecal={this.setCurrentFingernailDecal} decalPack={this.state.decalPack} />
       </div>);
   }
 }
@@ -46,13 +71,14 @@ class Introduction extends React.Component {
 
 class Hand extends React.Component {
 	render() {
+		const fingernailDecals = this.props.fingernailDecals
 		return (
 			<div id="handWrapper">
-				<Fingernail finger="thumb" />
-				<Fingernail finger="pointer" />
-				<Fingernail finger="middle" />
-				<Fingernail finger="ring" />
-				<Fingernail finger="pinky" />
+				<Fingernail setCurrentFinger={this.props.setCurrentFinger} decal={fingernailDecals.thumb} finger="thumb" />
+				<Fingernail setCurrentFinger={this.props.setCurrentFinger} decal={fingernailDecals.pointer} finger="pointer" />
+				<Fingernail setCurrentFinger={this.props.setCurrentFinger} decal={fingernailDecals.middle} finger="middle" />
+				<Fingernail setCurrentFinger={this.props.setCurrentFinger} decal={fingernailDecals.ring} finger="ring" />
+				<Fingernail setCurrentFinger={this.props.setCurrentFinger} decal={fingernailDecals.pinky} finger="pinky" />
 				<img id="handImg" src={HandImg} />
 			</div>
 		);
@@ -60,13 +86,29 @@ class Hand extends React.Component {
 }
 
 class Fingernail extends React.Component {
+
+	handleClick(e) {
+		this.props.setCurrentFinger(this.props.finger);
+	}
+
 	render() {
+		const finger = this.props.finger;
+		const decal = this.props.decal;
+		const img = <img data-finger={finger} src={decal} />
+		//let img = null;
+		//if (this.state.fingernailDecals[finger]) {
+		//	img = <img data-finger={finger} src={decal} />
+		//} else {
+		//	img = '';
+		//}
+	
 		let classes = classNames(
-			'fingernail', this.props.finger
+			'fingernail', finger
 		);
+		//console.log(this.state.currentFinger);
 		return (
-			<div className={classes}>
-				<img src="https://image.flaticon.com/icons/png/128/284/284749.png" />
+			<div onClick={this.handleClick.bind(this)} id={finger} className={classes}>
+				{img}
 			</div>
 		)
 	}
@@ -92,20 +134,26 @@ class DecalList extends React.Component {
 					decals = DecalImgs[decalPack].keys();
 
 		const decalList = decals.map((decal, index) =>
-			<Decal pack={decalPack} decal={decal} key={index} />
+			<Decal setCurrentFingernailDecal={this.props.setCurrentFingernailDecal} pack={decalPack} decal={decal} key={index} />
 		);
 		return (
-			<div id="decals">{decalList}</div>
+			<div  id="decals">{decalList}</div>
 		)
 	}
 }
 
 class Decal extends React.Component {
+
+	handleClick (e) {
+		console.log(e.target);
+		this.props.setCurrentFingernailDecal(e.target.src);
+	}
+
 	render() {
 		const pack = this.props.pack,
 					decal = this.props.decal;
 		return (
-			<img src={`./client/public/assets/images/decals/${pack}/${decal}`} />
+			<img onClick={this.handleClick.bind(this)} src={`./client/public/assets/images/decals/${pack}/${decal}`} />
 		)
 	}
 }
