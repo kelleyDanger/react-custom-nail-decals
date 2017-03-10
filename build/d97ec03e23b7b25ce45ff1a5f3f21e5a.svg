@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<circle fill="#F15249" cx="32" cy="32" r="31.1"/>
+		<path fill="#C93131" d="M54,10C66.1,22.2,66.1,41.8,54,54C41.8,66.1,22.2,66.1,10,54"/>
+	</g>
+	<g>
+		<rect x="25" y="29" fill="#FFC114" width="14" height="29"/>
+		<polyline fill="#EAAC0F" points="25,29 39,29 39,58 		"/>
+		<g>
+			<g>
+				<polyline fill="#158442" points="14.2,14.5 4.5,24.1 0.7,39.1 26,54.5 26,32.5 14.3,14.5 				"/>
+				<polyline fill="#0B7536" points="14.3,14.5 26,32.5 26,54.5 11,45.4 				"/>
+			</g>
+			<g>
+				<polyline fill="#158442" points="49.8,14.5 59.5,24.1 63.3,39.1 38,54.5 38,32.5 49.7,14.5 				"/>
+				<polyline fill="#0B7536" points="49.7,14.5 38,32.5 38,54.5 53,45.4 				"/>
+			</g>
+		</g>
+		<line fill="#219B52" x1="14.3" y1="14.5" x2="4.5" y2="24.1"/>
+		<polygon fill="#E28FAF" points="35,34.6 32,35.3 29,34.6 29,46.8 32,43.8 35,46.8 		"/>
+		<polyline fill="#C97396" points="32,43.8 35,46.8 35,34.6 32,35.3 29,34.6 		"/>
+		<polygon fill="#51D687" points="14.3,14.5 32,5.9 49.7,14.5 46.9,29.7 32,37.8 17.1,29.7 		"/>
+		<polygon fill="#3CC676" points="14.3,14.5 32,17.8 49.7,14.5 46.9,29.7 32,37.8 17.1,29.7 		"/>
+		<polyline fill="#2CAF61" points="32,5.9 49.7,14.5 46.9,29.7 32,37.8 		"/>
+		<g>
+			<g>
+				<polygon fill="#5E6664" points="25,23.6 20,22 20,19.2 25,20.7 				"/>
+				<polyline fill="#2F423F" points="25,20.7 25,23.6 20,22 				"/>
+			</g>
+			<g>
+				<g>
+					<polygon fill="#5E6664" points="39,23.6 44,22 44,19.2 39,20.7 					"/>
+				</g>
+				<g>
+					<polyline fill="#2F423F" points="39,23.6 44,22 44,19.2 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<circle fill="#B070ED" cx="32" cy="42.4" r="20.8"/>
+		<path fill="#9B60BA" d="M32,21.5c11.5,0,20.8,9.3,20.8,20.8c0,11.5-9.3,20.8-20.8,20.8"/>
+		<g>
+			<path fill="#FFB3ED" d="M13.4,33h37.2c-0.4-0.9-0.7-1.3-1.2-2h-35C14,31.9,13.8,32.1,13.4,33z"/>
+			<path fill="#F48CD6" d="M14,33h36.6c-0.4-0.9-0.6-1.2-1.2-2"/>
+			<path fill="#FFB3ED" d="M14.7,54h34.6c0.6-0.9,1.3-2,1.7-3H13C13.4,52,14.2,53.2,14.7,54z"/>
+			<path fill="#F48CD6" d="M15,54h34.3c0.7-0.8,1.3-2.2,1.7-3"/>
+		</g>
+		<g>
+			<g>
+				
+					<rect x="40.9" y="35.5" transform="matrix(0.7072 -0.707 0.707 0.7072 -13.6339 40.6648)" fill="#F9BF30" width="2.7" height="2.7"/>
+				<g>
+					
+						<rect x="15.3" y="35.5" transform="matrix(0.707 -0.7072 0.7072 0.707 -21.1614 22.5073)" fill="#FCF9C3" width="2.7" height="2.7"/>
+					
+						<rect x="20.4" y="35.5" transform="matrix(0.707 -0.7072 0.7072 0.707 -19.6559 26.141)" fill="#FFD77D" width="2.7" height="2.7"/>
+					
+						<rect x="25.5" y="35.5" transform="matrix(0.707 -0.7072 0.7072 0.707 -18.15 29.7761)" fill="#FCF9C3" width="2.7" height="2.7"/>
+					<polyline fill="#F7F131" points="16.6,34.9 18.5,36.8 16.6,38.7 					"/>
+					<polyline fill="#F9BF30" points="21.7,34.9 23.6,36.8 21.7,38.7 					"/>
+					<polyline fill="#F7F131" points="26.9,34.9 28.7,36.8 26.9,38.7 					"/>
+					
+						<rect x="30.7" y="35.5" transform="matrix(0.707 -0.7072 0.7072 0.707 -16.6444 33.4101)" fill="#F9BF30" width="2.7" height="2.7"/>
+					
+						<rect x="35.8" y="35.5" transform="matrix(0.707 -0.7072 0.7072 0.707 -15.1389 37.0442)" fill="#F7F131" width="2.7" height="2.7"/>
+					
+						<rect x="46.1" y="35.5" transform="matrix(0.707 -0.7072 0.7072 0.707 -12.1275 44.313)" fill="#F7F131" width="2.7" height="2.7"/>
+				</g>
+			</g>
+			<g>
+				
+					<rect x="40.9" y="46.6" transform="matrix(0.7076 -0.7066 0.7066 0.7076 -21.5046 43.8921)" fill="#F9BF30" width="2.7" height="2.7"/>
+				<g>
+					
+						<rect x="15.3" y="46.6" transform="matrix(0.7074 -0.7068 0.7068 0.7074 -29.0247 25.746)" fill="#FCF9C3" width="2.7" height="2.7"/>
+					
+						<rect x="20.4" y="46.6" transform="matrix(0.7074 -0.7068 0.7068 0.7074 -27.5212 29.3779)" fill="#FFD77D" width="2.7" height="2.7"/>
+					
+						<rect x="25.5" y="46.6" transform="matrix(0.7074 -0.7068 0.7068 0.7074 -26.0171 33.0111)" fill="#FCF9C3" width="2.7" height="2.7"/>
+					<polyline fill="#F7F131" points="16.6,46 18.5,47.9 16.6,49.8 					"/>
+					<polyline fill="#F9BF30" points="21.7,46 23.6,47.9 21.7,49.8 					"/>
+					<polyline fill="#F7F131" points="26.9,46 28.7,47.9 26.9,49.8 					"/>
+					
+						<rect x="30.7" y="46.6" transform="matrix(0.7074 -0.7068 0.7068 0.7074 -24.5134 36.6433)" fill="#F9BF30" width="2.7" height="2.7"/>
+					
+						<rect x="35.8" y="46.6" transform="matrix(0.7074 -0.7068 0.7068 0.7074 -23.0097 40.2754)" fill="#F7F131" width="2.7" height="2.7"/>
+					
+						<rect x="46.1" y="46.6" transform="matrix(0.7074 -0.7068 0.7068 0.7074 -20.0021 47.5405)" fill="#F7F131" width="2.7" height="2.7"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<circle fill="#31F4A9" cx="15.1" cy="42.1" r="1.8"/>
+			<circle fill="#FCF9C3" cx="20.8" cy="42.1" r="1.8"/>
+			<circle fill="#31F4A9" cx="26.4" cy="42.1" r="1.8"/>
+			<path fill="#1BE090" d="M15.1,40.4c1,0,1.8,0.8,1.8,1.8c0,1-0.8,1.8-1.8,1.8"/>
+			<path fill="#F7F131" d="M20.8,40.4c1,0,1.8,0.8,1.8,1.8c0,1-0.8,1.8-1.8,1.8"/>
+			<path fill="#1BE090" d="M26.4,40.4c1,0,1.8,0.8,1.8,1.8c0,1-0.8,1.8-1.8,1.8"/>
+			<circle fill="#F7F131" cx="32" cy="42.1" r="1.8"/>
+			<circle fill="#31F4A9" cx="37.6" cy="42.1" r="1.8"/>
+			<circle fill="#F7F131" cx="43.2" cy="42.1" r="1.8"/>
+			<circle fill="#31F4A9" cx="48.9" cy="42.1" r="1.8"/>
+		</g>
+		<path fill="#B070ED" d="M37,23.5c0,0.9-0.5,1.5-1.4,1.5h-7.3c-0.9,0-1.4-0.6-1.4-1.5v-6.4c0-0.9,0.5-1.1,1.4-1.1h7.3
+			c0.9,0,1.4,1.1,1.4,2V23.5z"/>
+		<path fill="#9B60BA" d="M27,17.1c0-0.9,0.5-1.1,1.4-1.1h7.3c0.9,0,1.4,0.2,1.4,1.1v6.4c0,1.6-0.6,1.5-1.5,1.5"/>
+		<path fill="#BF92FF" d="M27.2,23.8c0.4,0.6-1,2.1-3.1,3.4c-2,1.3-4,1.9-4.3,1.4c-0.3-0.5,1-2.1,3.1-3.4
+			C25,23.8,26.9,23.2,27.2,23.8z"/>
+		<circle fill="#F48CD6" cx="32" cy="13.4" r="1.3"/>
+		<circle fill="#F48CD6" cx="32" cy="7.8" r="1.3"/>
+		<circle fill="#F48CD6" cx="32" cy="2.2" r="1.3"/>
+	</g>
+	<g>
+		<g>
+			<path fill="#F48CD6" d="M15,9.1V7.4C15,7.1,14.9,7,14.5,7h-3C11.2,7,11,7.1,11,7.4v1.6c-4,0.9-6.3,4.1-6.3,7.8
+				c0,4.5,3.5,8.1,8,8.1c4.5,0,8.2-3.6,8.2-8.1C20.9,13.1,18,10,15,9.1z"/>
+			<circle fill="#F48CD6" cx="12.6" cy="5.6" r="0.5"/>
+			<circle fill="#F48CD6" cx="12.6" cy="3.5" r="0.5"/>
+			<circle fill="#F48CD6" cx="12.6" cy="1.3" r="0.5"/>
+		</g>
+		<g>
+			<path fill="#B070ED" d="M53,9.1V7.4C53,7.1,52.8,7,52.5,7h-2.9C49.2,7,49,7.1,49,7.4v1.6c-3,0.9-5.9,4.1-5.9,7.8
+				c0,4.5,3.7,8.1,8.2,8.1c4.5,0,7.9-3.6,7.9-8.1C59.2,13.1,57,10,53,9.1z"/>
+			<circle fill="#B070ED" cx="51.4" cy="5.6" r="0.5"/>
+			<circle fill="#B070ED" cx="51.4" cy="3.5" r="0.5"/>
+			<circle fill="#B070ED" cx="51.4" cy="1.3" r="0.5"/>
+		</g>
+	</g>
+</g>
+</svg>

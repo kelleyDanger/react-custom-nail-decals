@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<circle fill="#FFAB17" cx="32" cy="32" r="31.1"/>
+		<path fill="#FF8A15" d="M54,10C66.1,22.2,66.1,41.8,54,54S22.2,66.1,10,54"/>
+	</g>
+	<g>
+		<rect x="14" y="14" fill="#89DBEF" width="15" height="21"/>
+		<rect x="35" y="14" fill="#16AFC4" width="15" height="21"/>
+		<g>
+			<g>
+				<polygon fill="#89DBEF" points="46.8,52.4 32,63.6 17.2,52.4 15.2,21.2 32,9.1 48.8,21.2 				"/>
+				<polyline fill="#52C1DB" points="32,9.1 48.7,22 46.8,52.4 32,63.6 				"/>
+				<polygon fill="#89DBEF" points="13.7,14.1 32,5.3 50.3,14.1 45.3,38 32,48.5 18.7,38 				"/>
+				<polygon fill="#52C1DB" points="13.7,14.1 32,20.2 50.3,14.1 45.3,23.2 32,33.6 18.7,23.2 				"/>
+				<polyline fill="#52C1DB" points="32,5.3 50.3,14.1 45.3,38 32,48.5 				"/>
+				<polyline fill="#34B8CE" points="32,20.2 50.3,14.1 48.6,21.8 32,33.6 				"/>
+				<g>
+					<g>
+						<g>
+							<polygon fill="#89DBEF" points="21,10.8 14.8,9 16.7,0.4 24.2,5 							"/>
+							<polyline fill="#52C1DB" points="16.7,0.4 24.2,5 21,10.8 							"/>
+						</g>
+					</g>
+					<g>
+						<g>
+							<polygon fill="#16AFC4" points="42.9,10.8 49.2,9 47.3,0.4 39.8,5 							"/>
+							<polyline fill="#52C1DB" points="47.3,0.4 39.8,5 42.9,10.8 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<polygon fill="#5E6664" points="26,23.5 21,21.9 21,19 26,20.6 						"/>
+						<polyline fill="#2F423F" points="26,20.6 26,23.5 21,21.9 						"/>
+					</g>
+					<g>
+						<g>
+							<polygon fill="#5E6664" points="38,23.5 43,21.9 43,19 38,20.6 							"/>
+						</g>
+						<g>
+							<polygon fill="#2F423F" points="38,23.5 43,21.9 43,19 							"/>
+						</g>
+					</g>
+				</g>
+				<g>
+					<g>
+						<polygon fill="#52C1DB" points="27,54 27,54 25.1,49 21.3,50.1 21.3,50.1 						"/>
+					</g>
+					<g>
+						<polygon fill="#16AFC4" points="37,54 37,54 39,48.9 43,50.1 43,50.1 						"/>
+					</g>
+				</g>
+				<polyline fill="#16AFC4" points="32,33.6 46.8,52.4 46.8,52.4 48.8,21.2 				"/>
+			</g>
+			<polygon fill="#FFC114" points="26.7,47.1 32,17.2 37.3,47.1 32,55.4 			"/>
+			<polyline fill="#D39202" points="32,17.2 37.3,47.1 32,55.4 			"/>
+		</g>
+	</g>
+</g>
+</svg>
