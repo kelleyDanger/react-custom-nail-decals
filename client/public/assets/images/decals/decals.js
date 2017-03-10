@@ -21,6 +21,7 @@ const Wedding = require.context("images/decals/Wedding", true);
 export default {
 	Animals,
 	Baby,
+	Chemistry,
 	Christmas,
 	Easter,
 	Emoticons,
