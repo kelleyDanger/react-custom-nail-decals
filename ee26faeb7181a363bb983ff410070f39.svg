@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FF7C24" d="M32.1,11c0,0,0.8-5.8-7.5-9.3s-11.1,4.9-6.2,11.2c4.9,6.2,9.2,2.9,9.2,2.9s-5.2-0.9-5.1-9
+			c0.1-4.8,8.6,1.1,8.6,5.1l1.4,0.3L32.1,11z"/>
+		<path fill="#FF7C24" d="M31.9,11c0,0-0.8-5.8,7.5-9.3s11.1,4.9,6.2,11.2c-4.9,6.2-9.2,2.9-9.2,2.9s5.2-0.9,5.1-9
+			c-0.1-4.8-8.6,1.1-8.6,5.1l-1.4,0.3L31.9,11z"/>
+	</g>
+	<g>
+		<rect x="6" y="21" fill="#1EE2BD" width="52" height="42"/>
+		<polyline fill="#08BF9C" points="6,21 58,21 58,63 		"/>
+	</g>
+	<g>
+		<rect x="6" y="24" fill="#1EE2BD" width="52" height="2"/>
+		<polyline fill="#08BF9C" points="6,24 58,24 58,26 		"/>
+	</g>
+	<g>
+		<rect x="6" y="30" fill="#1EE2BD" width="52" height="1"/>
+		<polyline fill="#08BF9C" points="6,30 58,30 58,31 		"/>
+	</g>
+	<g>
+		<rect x="6" y="36" fill="#1EE2BD" width="52" height="1"/>
+		<polyline fill="#08BF9C" points="6,36 58,36 58,37 		"/>
+	</g>
+	<g>
+		<rect x="6" y="41" fill="#1EE2BD" width="52" height="2"/>
+		<polyline fill="#08BF9C" points="6,41 58,41 58,43 		"/>
+	</g>
+	<g>
+		<rect x="6" y="47" fill="#1EE2BD" width="52" height="2"/>
+		<polyline fill="#08BF9C" points="6,47 58,47 58,49 		"/>
+	</g>
+	<g>
+		<rect x="6" y="53" fill="#1EE2BD" width="52" height="1"/>
+		<polyline fill="#08BF9C" points="6,53 58,53 58,54 		"/>
+	</g>
+	<g>
+		<rect x="6" y="59" fill="#1EE2BD" width="52" height="1"/>
+		<polyline fill="#08BF9C" points="6,59 58,59 58,60 		"/>
+	</g>
+	<rect x="28" y="21" fill="#FFAA22" width="8" height="42"/>
+	<polyline fill="#FF7C24" points="28,21 36,21 36,63 	"/>
+	<rect x="3" y="11" fill="#1E4784" width="58" height="10"/>
+	<polyline fill="#00233F" points="3,11 61,11 61,21 	"/>
+</g>
+</svg>

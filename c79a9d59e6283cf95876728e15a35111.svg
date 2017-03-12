@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<polygon fill="#008AAA" points="40,1 37.8,3 24,3 24,16.5 23,17 24.2,19 41,19 41,2.9 		"/>
+		<rect x="23" y="1" fill="#07BED6" width="17" height="16"/>
+		<polygon fill="#04A0BA" points="40,13.5 31.6,5.1 27.2,13 31.3,17 40,17 		"/>
+		<polygon fill="#FFFFFF" points="36,13 31.6,5.1 27.1,13 		"/>
+	</g>
+	<g>
+		<polygon fill="#1A1E1E" points="40,23 37.8,25 24,25 24,38.4 23,39 24.2,41 41,41 41,24.8 		"/>
+		<rect x="23" y="23" fill="#4A514F" width="17" height="16"/>
+	</g>
+	<g>
+		<g>
+			<polygon fill="#911C0D" points="19,23 17,25 3,25 3,38.4 2,39 3.4,41 20,41 20,24.8 			"/>
+			<rect x="2" y="23" fill="#DB5435" width="17" height="16"/>
+			<polygon fill="#B52D1F" points="19,31.5 14.6,27.1 7,35 11.1,39 19,39 			"/>
+			<rect x="7" y="27" fill="#FFFFFF" width="8" height="8"/>
+		</g>
+		<g>
+			<polygon fill="#236D00" points="61,23 58.6,25 45,25 45,38.4 44,39 45,41 62,41 62,24.8 			"/>
+			<rect x="44" y="23" fill="#329908" width="17" height="16"/>
+			<polygon fill="#2B7C00" points="61,33.2 55.5,27.8 49.2,34.1 54.2,39 61,39 			"/>
+			<circle fill="#FFFFFF" cx="52.4" cy="31" r="4.6"/>
+		</g>
+	</g>
+	<g>
+		<polygon fill="#5B3F7A" points="40,45 37.8,47 24,47 24,60.2 23,61 24.2,63 41,63 41,46.6 		"/>
+		<rect x="23" y="45" fill="#835EA5" width="17" height="16"/>
+		<polygon fill="#6D4B9B" points="40,54.9 35.6,50.6 28.8,56.2 33.6,61 40,61 		"/>
+		<g>
+			
+				<rect x="27.2" y="51.6" transform="matrix(0.7073 0.7069 -0.7069 0.7073 46.5838 -6.8493)" fill="#FFFFFF" width="8.8" height="2.6"/>
+			
+				<rect x="27.2" y="51.6" transform="matrix(0.7069 -0.7073 0.7073 0.7069 -28.1189 37.8113)" fill="#FFFFFF" width="8.8" height="2.6"/>
+		</g>
+	</g>
+</g>
+</svg>
