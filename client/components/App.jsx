@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import classNames from 'classnames';
-import { CirclePicker } from 'react-color';
+import { CirclePicker, HuePicker } from 'react-color';
 
 import '../public/assets/css/custom.scss';
 
@@ -203,6 +203,7 @@ class HandSettings extends React.Component {
 				<h4>Hand Color</h4>
 				<CirclePicker color={this.props.handColor} colors={handColors} onChange={this.handleChange.bind(this)} />;
 				<h4>Nail Color</h4>
+				<HuePicker />
 			</div>
 			)
 		}
