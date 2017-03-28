@@ -14,14 +14,26 @@ module.exports = {
     filename: 'bundle.js'
   },
   module: {
-    loaders: [
-      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ },
+    rules: [
+      { 
+        test: /\.js$/, 
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      },
+      { 
+        test: /\.jsx$/, 
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      },
       { 
         test: /\.(jpe?g|png|gif|svg)$/i, 
-        loader: [
-          'file-loader'
-        ] 
+        use: {
+          loader: 'file-loader' 
+        }
       },
       {
         test: /\.scss$/,
