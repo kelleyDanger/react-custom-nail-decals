@@ -5,6 +5,7 @@ import { CirclePicker, HuePicker } from 'react-color';
 
 import '../public/assets/css/custom.scss';
 
+import DecalCanvas from './DecalCanvas.jsx'
 //import HandImgs from "images/hands/hands.js";
 import DecalImgs from 'images/decals/decals.js'
 
@@ -20,12 +21,19 @@ class App extends React.Component {
 				fingernailColor: '#FCECE0'
 			},
 			fingernailDecals: {
-				thumb: 'https://img.clipartfest.com/0d6a3240800caf71073288e1df38bf8a_cute-panda-png-c-cute-pnda-clipart-png_128-128.png',
-				pointer: '',
-				middle: "",
-				ring: "",
-				pinky: "",
+				'thumb': './client/public/assets/images/decals/Halloween/./ _Vampire.svg',
+				'pointer': './client/public/assets/images/decals/Halloween/./ _Cat.svg',
+				'middle': './client/public/assets/images/decals/PokemonGo/./pikachu-2.svg',
+				'ring': './client/public/assets/images/decals/Games/./ _Diamond.svg',
+				'pinky': './client/public/assets/images/decals/Robots/./ _robot brain.svg',
 			},
+			//fingernailDecals: {
+			//	thumb: 'https://img.clipartfest.com/0d6a3240800caf71073288e1df38//bf8a_cute-panda-png-c-cute-pnda-clipart-png_128-128.png',//
+			//	pointer: '',//
+			//	middle: "",//
+			//	ring: "",//
+			//	pinky: "",
+			//},
 			currentFinger: 'thumb'
 		};
 
@@ -62,12 +70,22 @@ class App extends React.Component {
     this.setState({decalPack: decalPack});
   }
 
+  renderDecalCanvas() {
+  	const imagesSrcArray = Object.values(this.state.fingernailDecals);
+  	if (!imagesSrcArray.every(x => x)) {
+  		return false;
+  	} else {
+  		return true;
+  	}
+  }
+
   render() {
     return (
      <div>
         <Introduction />
         <HandSettings handColor={this.state.handSettings.handColor} setHandColor={this.setHandColor}/>
         <Hand setCurrentFinger={this.setCurrentFinger} fingernailDecals={this.state.fingernailDecals} handSettings={this.state.handSettings}/>
+        {this.renderDecalCanvas() && <DecalCanvas images={this.state.fingernailDecals} /> }
         <DecalSelectList onChange={this.handleChange} />
         <DecalList setCurrentFingernailDecal={this.setCurrentFingernailDecal} decalPack={this.state.decalPack} />
       </div>);
